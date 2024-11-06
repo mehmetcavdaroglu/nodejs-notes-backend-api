@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-notebook-backend-api",
+  "version": "1.0.0",
+  "description": "Notes Api with Nodejs",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehmetcavdaroglu/nodejs-notes-backend-api.git"
+  },
+  "keywords": [
+    "notes",
+    "api",
+    "nodejs",
+    "backend"
+  ],
+  "author": "mehmetcavdaroglu@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mehmetcavdaroglu/nodejs-notes-backend-api/issues"
+  },
+  "homepage": "https://github.com/mehmetcavdaroglu/nodejs-notes-backend-api#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
